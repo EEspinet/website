@@ -1,0 +1,111 @@
+.baseBody {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: lightseagreen;
+    color: white;
+  }
+
+.homeTitle{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: center;
+   
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.homeSubtitle{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+.homeText{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.HomeButton1{
+    display:flex;
+    align-items:center;
+   
+    justify-content: center;
+    text-align: center;
+    vertical-align: right;
+ 
+}
+
+.HomeButton2{
+    display:flex;
+    align-items:center;
+   
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+ 
+}
+
+.firstRow{
+    min-height: 250px;
+    background-image: url("../images/banner2.jpg")
+}
+.secondRow{
+    min-height: 800px;
+    background-color: lightgrey;
+}
+
+.main > div {
+    display: inline-block;
+    width: 49%;
+    margin-top: 10px;
+    
+  }
+  
+  .two .register {
+    border: none;
+  }
+  .two .register h3 {
+    border-bottom-color: #909090;
+  }
+  .two .register .sep {
+    border-color: #909090;
+  }
+
+  .signUpBody {
+    background-position: top;
+    background-image: url(https://d.ibtimes.co.uk/en/full/1671954/jp-morgan.jpg);
+    background-size: auto;
+  }

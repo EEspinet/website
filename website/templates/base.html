@@ -1,0 +1,43 @@
+{% block styles %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="../static/css/styles.css">
+{% endblock %}
+<!-- nav bar -->
+{% block navbar %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <div class="topnav">
+        <a class="active" href="home">Home</a>
+        <a href="#news">About Me</a>
+        <a href="#contact">Project</a>
+        <a href="#about">Resume</a>
+    </div>
+{% endblock %}
+
+{% block content %}
+    {% block app_content %}{% endblock %}
+    <footer class="py-5 bg-dark">
+        <div>
+            <p align="center">
+                <a style="color: whitesmoke;" href="http://www.jpmorganchase.com" target="_blank">JPMorgan Chase & Co. |</a>
+                <a style="color: whitesmoke;" href="http://jpmorgan.com" target="_blank"> JPMorgan |</a>
+                <a style="color: whitesmoke;" href="http://chase.com" target="_blank"> Chase |</a>
+                <a style="color: whitesmoke;" href=:"https://portal.jpmchase.net/sites/companyhome/Pages/help.aspx" target="_blank"> Help |</a>
+                <a style="color: whitesmoke;" href="mailto:TestEmail@restricted.chase.com?Subject=Contacting%20from%20Firmwide"> Contact Us</a>
+            </p>
+            <p align="center" style="color: whitesmoke;">
+                <small>
+                    Information on this site is for JPMC use only. Do NOT share non-public information outside the firm.
+                </small>
+            </p>
+            <p align="center" style="color: whitesmoke;">
+                <small>
+                    Copyright @
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> JPMorgan Chase & Co. All rights reserved. JPMC Internal Use Only
+                </small>
+            </p>
+        </div>
+    </footer>
+{% endblock %}
