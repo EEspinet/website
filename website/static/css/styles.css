@@ -28,11 +28,11 @@
   }
 
 .homeTitle{
-    color: white;
-    font-size: 40px;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
     text-align: center;
     vertical-align: center;
-   
     display:flex;
     align-items:center;
     flex-wrap: wrap;
@@ -42,10 +42,12 @@
 .homeSubtitle{
     display:flex;
     align-items:center;
+    font-size: 50px;
+    font-weight: 600;
     flex-wrap: wrap;
+    font-style: italic;
     justify-content: center;
-    color: white;
-    font-size: 30px;
+    color: black;
     text-align: center;
     vertical-align: center;
 }
@@ -79,12 +81,12 @@
 }
 
 .firstRow{
-    min-height: 250px;
-    background-image: url("../images/banner2.jpg")
+    min-height: 400px;
+    background-image: url("../images/pizzaBanner.jpg")
 }
 .secondRow{
     min-height: 800px;
-    background-color: lightgrey;
+    background-color: whitesmoke;
 }
 
 .main > div {
@@ -109,3 +111,78 @@
     background-image: url(https://d.ibtimes.co.uk/en/full/1671954/jp-morgan.jpg);
     background-size: auto;
   }
+
+.locationsTitle{
+    color: black;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: center;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locationsSubtitle{
+    display:flex;
+    align-items:center;
+    font-size: 30px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    font-style: italic;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+}
+
+.minHeight{
+    min-height: 100px;
+}
+
+
+
+.menu_body{
+    max-width: 680px;
+    margin:0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+
+.menu_section{
+    margin-bottom: 80px;
+}
+
+.menu_section_title{
+    font-family: goergia;
+    font-size: 50px;
+    display:block;
+    font-weight: normal;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu_item{
+    margin:35px 0;
+    font-size: 18px;
+}
+
+menu_item_name{
+    font-family: helvetica;
+    font-weight: bold;
+    border-bottom: 2px dotten rgb(213, 213, 213);
+}
+
+.menu_item_description{
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+.menu_item_price{
+    float:right;
+    font-weight: bold;
+    font-family: arial;
+    margin-top:-22px;
+}
